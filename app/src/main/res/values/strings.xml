@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="counterData">0</string>
+    <string name="btnCount">Count</string>
+    <string name="btnReset">reset</string>
+    <string name="countDownText">30 s</string>
+    <string name="high_score_text">HIGH SCORE</string>
+    <string name="init_high_score_text">0</string>
+</resources>
