@@ -6,4 +6,5 @@
     <string name="countDownText">30 s</string>
     <string name="high_score_text">HIGH SCORE</string>
     <string name="init_high_score_text">0</string>
+    <string name="seconds_left">%d s</string>
 </resources>
