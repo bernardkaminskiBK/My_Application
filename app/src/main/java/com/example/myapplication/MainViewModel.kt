@@ -32,6 +32,7 @@ class MainViewModel : ViewModel() {
         _counterNumber.value = 0
         _maxScore.value = 0
         _isBtnStartEnabled.value = true
+        _secondsLeft.value = 0
         initCountDownTimer()
     }
 

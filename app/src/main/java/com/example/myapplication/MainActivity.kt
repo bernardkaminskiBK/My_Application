@@ -18,22 +18,8 @@ open class MainActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
         mainViewModel = ViewModelProvider(this).get(MainViewModel::class.java)
         binding.viewModel = mainViewModel
+        binding.lifecycleOwner = this
 
-        mainViewModel.counterNumber.observe(this, Observer {
-            binding.counterTextView.text = it.toString()
-        })
-
-        mainViewModel.maxScore.observe(this, Observer {
-            binding.highScoreResultTextView.text = it.toString()
-        })
-
-        mainViewModel.isBtnStartEnabled.observe(this, Observer {
-            binding.btnClick.isEnabled = it
-        })
-
-        mainViewModel.secondsLeft.observe(this, Observer {
-            binding.countDownTextView.text = getString(R.string.seconds_left, it)
-        })
     }
 
 }

@@ -2,7 +2,6 @@
 <resources>
 
     <style name="highScoreResultStyle">
-        <item name="android:textAlignment">center</item>
         <item name="android:textSize">48sp</item>
     </style>
 </resources>
